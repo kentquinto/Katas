@@ -1,0 +1,31 @@
+Katas — Programming Exercises
+==============================
+
+A collection of small programming challenges written in PHP.
+
+--------------------------------------------------------------------------
+
+Kata1 — PI Number
+Displays digits of PI one by one each time a key is pressed.
+
+Kata2 — Postal Order
+Simulates a post office queue system with turn types (C, E, R, O, I) and consecutive numbering per type.
+
+Kata3 — Sant Jordi
+Randomly gives you a book or a rose as a gift, with 5 possible options for each.
+
+Kata4 — Lights Out
+4x4 grid puzzle inspired by the PSX game Alundra. Stepping on a tile toggles its 4 neighbor tiles.
+
+Kata5 — Lights Out 2
+Continuation of Kata4. Grid state persists between moves and the game ends when all tiles match.
+
+Kata6 — Letter T
+Given a number n, prints the letter T using characters. The top row is n horizontal and a vertical path that goes down the center.
+
+Kata7 — Match Up ER Diagram
+ER diagram for a card-matching game. Models users, games, cards, and card details.
+
+--------------------------------------------------------------------------
+
+To run any kata: "php YourFileDirectory/FileName.php" on the terminal.
