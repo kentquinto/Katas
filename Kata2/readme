@@ -1,0 +1,22 @@
+Description:
+
+Imagine you're queuing at a post office and you request a turn number. Turns have 5 types:
+- C (Prior appointment)
+- E (Sending)
+- R (Pickup)
+- O (Other procedures)
+- I (Information)
+They also have a consecutive number, so they look like:
+- C024
+- E001
+- C025
+- R123
+The numbers must be consecutive per turn type (each type has its own counter).
+Build a structure that:
+- Creates a new turn
+- Calls the person who has that turn
+- Deletes the turn once it's been attended
+--------------------------------------------------------------------------
+Program:
+
+To try this program, just run: "php YourFileDirectory/PostalOrder.php" on the terminal! To quit the program, just press ctrl + c on the terminal.

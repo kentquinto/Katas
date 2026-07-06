@@ -1,0 +1,14 @@
+Description:
+
+Continuation of the Lights Out kata (Kata4).
+
+We have a 4x4 grid of elements
+Each element has two possible states (on/off)
+When you step on an element, the adjacent tiles (up, down, left, right) change state, but NOT the tile you're standing on
+--------------------------------------------------------------------------
+New in this version:
+- The grid state persists between moves
+- The game ends when all tiles are in the same state (all on or all off)
+- The initial grid layout is customizable
+--------------------------------------------------------------------------
+To try this program, just run: "php YourFileDirectory/LightsOut2.php" on the terminal and voilà! To quit the program, just press ctrl + c on the terminal.

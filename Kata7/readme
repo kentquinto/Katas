@@ -1,0 +1,36 @@
+Description:
+
+With the continuation of Kata: https://github.com/CloudSalander/kata-match-up-4
+
+Create an Entity–Relationship (ER) diagram capable of storing information related to the application. You may think beyond what the application currently does. Simply imagine where we could go in terms of modeling with such an application.
+--------------------------------------------------------------------------
+ER Diagram:
+
+user
+- user_id: unique identifier
+- name: player's name
+- highest_score: best score achieved
+
+game
+- game_id: unique identifier
+- time: how long the game lasted
+- score: points earned
+- difficulty: difficulty level
+- moves: number of moves made
+- user_user_id: links to the user who played
+
+card
+- card_id: unique identifier
+- position: TINYINT — 0 = face down, 1 = face up
+- game_game_id: links to the game it belongs to
+- card_details_card_details_id: links to the card's content
+
+card_details
+- card_details_id: unique identifier
+- image: the image shown on the card
+- number: the card's matching number
+
+Relationships:
+- One user can have many games
+- One game can have many cards
+- One card_details can be used by many cards

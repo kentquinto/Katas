@@ -1,0 +1,33 @@
+Description:
+
+Today we will pay a small tribute to the letter "T".
+Given an integer n, print a letter "T" of height n.
+
+Input: 5, 7, 4
+
+TTTTT
+  T
+  T
+  T
+  T
+
+TTTTTTT
+   T
+   T
+   T
+   T
+   T
+   T
+
+TT TT
+  T
+  T
+  T
+  T
+--------------------------------------------------------------------------
+
+Program:
+
+To try this program, just run: "php YourFileDirectory/LetterT.php" 
+on the terminal and voila!
+

@@ -1,0 +1,13 @@
+Description:
+
+It's Sant Jordi! (Saint George's Day — a Catalan tradition where people gift books and roses)
+Roses and books for everyone!
+Create a program that gives you a random gift:
+
+You choose if you want a book or a rose
+There are 5 possible books (each with a title)
+There are 5 possible roses (each with a color)
+--------------------------------------------------------------------------
+Program:
+
+To try this program, just run: "php YourFileDirectory/SantJordi.php" on the terminal!
