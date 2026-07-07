@@ -1,7 +1,7 @@
 Description:
 
 The task is to create a program about the number PI, given that 'PImavera' has arrived.
-Specifically, we need a program that, each time a key is pressed, displays one more digit of the number PI. Starting with 3.14, then 3.141, and so on successively.
+Specifically, we need a program that, each time a key is pressed, displays one more digit of the number PI. Starting with 3., then 3.1, and so on successively.
 --------------------------------------------------------------------------
 Program:
 

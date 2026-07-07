@@ -11,7 +11,7 @@ while (true) {
         break;
     }
     $pos++;
-    $currentDigits = "3." . substr($pi, 1, $pos - 1);
+    $currentDigits = "3.14" . substr($pi, 1, $pos - 1);
     echo "Pi so far: $currentDigits\n";
 }
 ?>
